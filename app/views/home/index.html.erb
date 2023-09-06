@@ -1,0 +1,19 @@
+<div>
+      <div class="flex justify-between items-center h-[60vh] text-[--titulos]">
+            <div class="w-[60%]">
+                  <span class="text-[--azul-marca] text-lg">Carta de presentación para vacante como</span>
+                  <h2 class="text-6xl leading-tight">Full-Stack<br> Software Engineer</h2>
+                  <p class="text-[--texto] mt-6">Hola EasyBroker 👋🏻, mi nombre es Francisco Brito,<br> tengo 23 años, soy argentino🇦🇷 y me considero un amante de la programación.</p>
+            </div>
+            <div class="w-[40%] flex justify-end">
+                  <img src="<%= asset_path('perfil.jpeg') %>" class="w-[80%] rounded-[20%]"/>
+            </div>
+      </div>
+</div>
+
+<div>
+      <%= render partial: 'partials/biography' %>
+      <%= render partial: 'partials/stack' %>
+      <%= render partial: 'partials/projects' %>
+      <%= render partial: 'partials/reviews' %>
+</div>

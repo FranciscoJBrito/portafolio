@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --azul-marca: #3354ff;
+  --gris-fondo: #f2f3f8;
+  --titulos: #202539;
+  --texto: #505050;
+}
+
+/*
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-200;
+  }
+}
+
+*/
